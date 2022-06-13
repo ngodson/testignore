@@ -6,12 +6,7 @@ const ejs  = require('ejs');
 const mysql = require('mysql');
 const bcrypt = require('bcrypt')
 
-// const db = mysql.createConnection({
-//     host: "104.198.235.154",
-//     user:"godson",
-//     password: "Boogie123@",
-//     database: "itemschema"
-// });
+
 
 const db = mysql.createConnection({
     host: process.env.DB_HOST,
