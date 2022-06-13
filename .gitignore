@@ -1,4 +1,4 @@
 #dotenv file
-.env
+/.env
 #node module
-node_modules
+/node_modules
